@@ -1,0 +1,23 @@
+# A. A. Sweets - robots.txt
+# This file tells search engines how to crawl your website
+
+User-agent: *
+Allow: /
+
+# Allow crawling of all pages
+Allow: /index.html
+Allow: /about.html
+Allow: /menu.html
+Allow: /contact.html
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://www.aasweets.com/sitemap.xml
+
+# Crawl delay (in seconds) - be nice to servers
+Crawl-delay: 1
+
+# Request rate (requests per second)
+Request-rate: 1/1s
